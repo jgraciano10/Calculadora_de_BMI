@@ -17,11 +17,12 @@ public class Procesador implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         switch (e.getActionCommand()){
             case "Calcular":
-                System.out.println("Acabas de presionar el boton de calcular");
+                // con este metodo vamos a calcular el Índice de Masa Corporal (BMI) usando la altura y el peso del usuario
                 ventana.calcular();
                 break;
             case "Limpiar":
-                System.out.println("Acabas de presionar el boton de Limpiar");
+                // con este metodo limpiamos la interfaz para volver a empezar
+
                 ventana.limpiar();
                 break;
             default:
